@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>尧柏问卷</title>
+  <style>
+    body { font-family: sans-serif; background-color: #0066b3; color: white; margin: 0; padding: 0; }
+    .container { background: white; color: black; max-width: 800px; margin: 20px auto; padding: 2em; border-radius: 12px; }
+    .logo { text-align: center; margin-bottom: 1em; }
+    img.logo-img { max-height: 80px; }
+    input[type="text"], textarea { width: 100%; padding: 8px; margin: 8px 0; }
+    button { background-color: #0066b3; color: white; padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="/logo.png" alt="尧柏LOGO" class="logo-img"/>
+      <h1>尧柏培训需求调查问卷</h1>
+    </div>
+    <p>1. 姓名：<input type="text" name="name" /></p>
+    <p>2. 部门：<input type="text" name="department" /></p>
+    <p>3. 现任职务：<input type="text" name="position" /></p>
+    <p>4. 培训经历简述：<textarea name="experience" rows="4"></textarea></p>
+    <p>5. 培训需求建议：<textarea name="needs" rows="4"></textarea></p>
+    <p style="text-align: center;"><button>提交问卷</button></p>
+  </div>
+</body>
+</html>
